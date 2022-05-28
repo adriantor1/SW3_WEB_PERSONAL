@@ -5,21 +5,24 @@
 		<meta name="description" content="Mi web personal"/>
 		<meta name="keywords" content="mi web personal"/>
 		<title>Mi web personal</title>
-		<link rel="stylesheet" href="estilos/styles.css"/>
-		<link rel="stylesheet" href="estilos/ionicons.css"/>
+		<link rel="stylesheet" href="assets/estilos/styles.css"/>
+		<link rel="stylesheet" href="assets/estilos/ionicons.css"/>
 	</head>
 	<body>
+		<div id="preloader">
+			<div id="loading-animation">&nbsp;</div>
+		</div>
 		<header id="cabecera">
 			<br><br>
-			<h4>MI WEB PERSONAL -- HTML CSS</h4>
+			<h4 id="tituloPrincipal">MI WEB PERSONAL -- HTML CSS</h4>
 		</header>
 		<nav>
 			<ul class="navegacionPrin">
 				<li><a href="index.html" class="active" >Inicio</a></li>
-				<li><a href="estudios.html">Estudios</a></li>
-				<li><a href="proyectos.html">Proyectos</a></li>
-				<li><a href="pasatiempos.html">Pasatiempos</a></li>
-				<li><a href="contacto.html">Contacto</a></li>
+				<li><a href="pages/estudios.html">Estudios</a></li>
+				<li><a href="pages/proyectos.html">Proyectos</a></li>
+				<li><a href="pages/pasatiempos.html">Pasatiempos</a></li>
+				<li><a href="pages/contacto.html">Contacto</a></li>
 			</ul>
 		</nav>
 		<section id="container">
@@ -72,8 +75,12 @@
 	    <footer id= "piePrin">
             <br><br><h2 class="tc-white">Copyright © 2022 - Ingeniería de Software III</h2>
             <h2 class="tc-white">Universidad del Cauca</h2>
-            <a href="#"><img src="archivos/face.png" with="25" height="25" href="google.com"/></a>
+            <a href="#"><img src="assets/img/face.png" with="25" height="25" href="google.com"/></a>
             <br>
         </footer>
+		<script src="assets/js/jquery-1.11.3.min.js"></script>
+		<script src="assets/js/index.js"></script>
 	</body>
+
+
 </html>
